@@ -5,11 +5,11 @@
 * keywords: Block Matching
 #### [Project 2: Optical Flow](#project-2-optical-flow-1)
 * keywords: Horn–Schunck, Lucas-Kanade
-#### [Project 3: Stereo Reconstruction](#project-3-stereo-rectification-1)
+#### [Project 3: Stereo Reconstruction](#project-3-stereo-reconstruction-1)
 * keywords: stereo camera, disparity map, point clouds
-#### Final Project: Improved Real-Time Pipeline for 3D Mesh Reconstruction from RGB-D Cameras
-]
-* external link: [abstract](https://twwang97.github.io/publication/2009-10-01-paper-title-number-1), [video](https://youtu.be/6GXKYBE1w_E)
+#### Final Project
+* Title: Improved Real-Time Pipeline for 3D Mesh Reconstruction from RGB-D Cameras
+* external link: [abstract](https://twwang97.github.io/publication/2009-10-01-paper-title-number-1), [video](https://youtu.be/tccfjy2j27w)
 #### Note
 * Some [notes and references](#note-1) are listed at the bottom of this page. 
 
@@ -27,10 +27,11 @@ python3 image_matching.py
 ```
 python3 optical_flow.py
 ```
-* Results from Horn–Schunck optical flow:
+#### Results from Horn–Schunck optical flow: <br>
 ![sphere_hs_flow](results_optical_flow/sphere/hs_flow.gif)
 ![table_hs_flow](results_optical_flow/table/flow.gif)
-* Results from Lucas-Kanade optical flow:
+---
+#### Results from Lucas-Kanade optical flow: <br>
 ![sphere_lk_flow](results_optical_flow/sphere/lk_flow.gif)
 
 ---
