@@ -1,23 +1,23 @@
 # Advanced Computer Vision: Homework
 
 ## Contents
-#### [Project 1: Image Matching](#project-1-image-matching-1)
+### [Project 1: Image Matching](#project-1-image-matching-1)
 * keywords: Block Matching
-#### [Project 2: Optical Flow](#project-2-optical-flow-1)
+### [Project 2: Optical Flow](#project-2-optical-flow-1)
 * keywords: Horn–Schunck, Lucas-Kanade
-#### [Project 3: Stereo Reconstruction](#project-3-stereo-reconstruction-1)
-* keywords: stereo camera, disparity map, point clouds
-#### Final Project
+### [Project 3: Stereo Reconstruction](#project-3-stereo-reconstruction-1)
+* keywords: stereo camera, image rectification, disparity map, point clouds
+### Final Project
 * Title: Improved Real-Time Pipeline for 3D Mesh Reconstruction from RGB-D Cameras
 * external link: [abstract](https://twwang97.github.io/publication/2009-10-01-paper-title-number-1), [video](https://youtu.be/tccfjy2j27w)
-#### Note
+### Note
 * [References](#note-1) are listed at the bottom of this page.
 * The pdf file ```MyNotes.pdf``` includes the material for preparing my midterm and final exams in the class of Advanced Computer Vision. These notes are provided for personal use only and may not be used for commercial purposes. If you notice any typos or have inquiries regarding the use of these notes, feel free to contact me. Thank you!
 
 
 ---
 # Project 1: Image Matching
-#### Python Usage
+### Python Usage
 ```
 python3 image_matching.py
 ```
@@ -25,24 +25,26 @@ python3 image_matching.py
 
 ---
 # Project 2: Optical Flow
-#### Python Usage
+### Python Usage
 ```
 python3 optical_flow.py
 ```
-#### Results from Horn–Schunck optical flow: <br>
+### Results from Horn–Schunck optical flow: <br>
 ![sphere_hs_flow](results_optical_flow/sphere/hs_flow.gif)
 ![table_hs_flow](results_optical_flow/table/flow.gif)
 
 ---
-#### Results from Lucas-Kanade optical flow: <br>
+
+### Results from Lucas-Kanade optical flow: <br>
 ![sphere_lk_flow](results_optical_flow/sphere/lk_flow.gif)
 
 ---
 # Project 3: Stereo Reconstruction
-#### Python Usage
+### Python Usage
 ```
 python3 stereo_reconstruction.py
 ```
+### Result (Demonstration [Video](https://youtu.be/aQThOlFRNxc))
 ![stereo_reconstruction_open3d](results_stereo_reconstruction/stereo_open3d.gif)
 
 ---
